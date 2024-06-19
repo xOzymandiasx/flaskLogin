@@ -1,0 +1,11 @@
+{% extends './layout.html' %}
+
+{% block title %}
+  Index
+{% endblock title %}
+
+{% block body %}
+  <h1>Bienvenido al sistema de login creado en flask para el proyecto final, a continuación presione el botón para ser redirigido hacia la app</h1>
+
+  <a class="btn btn-primary" href="{{url_for('login')}}">Continuar</a>
+{% endblock body %}
