@@ -5,6 +5,8 @@
 {% endblock title %}
 
 {% block body %}
-  <h1>Bienvenido {{usuario}}!!!</h1>
-  <a class="btn btn-secondary" href="{{url_for('login')}}">Salir</a>
+  <div class="d-flex flex-column justify-content-center align-items-center">
+    <h1>Bienvenido {{usuario}}!!!</h1>
+    <a class="btn btn-secondary" href="{{url_for('login')}}">Salir</a>
+  </div>
 {% endblock body %}
